@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import CATEGORIES from "./Task";
 
 function NewTaskForm({ categories, onTaskFormSubmit }) {
   const [taskText, setTaskText] = useState("");
